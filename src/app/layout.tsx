@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/logo.jpg",
+        url: "/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Projet Bois 33 - Menuiserie artisanale",

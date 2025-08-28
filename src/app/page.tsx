@@ -23,6 +23,11 @@ const gallery = [
 
 const beforeAfterProjects = [
   {
+    title: "Cuisine sur mesure",
+    before: { file: "cuisine-3d-visu.jpg", alt: "Visualisation 3D — cuisine sur mesure" },
+    after: { file: "cuisine-finis.png", alt: "Cuisine sur mesure — finitions premium" },
+  },
+  {
     title: "Meuble TV sur mesure",
     before: { file: "visu-3d-meuble-tele.jpeg", alt: "Visualisation 3D — meuble TV sur mesure" },
     after: { file: "meuble-tele-reel-finis.png", alt: "Meuble TV suspendu — finitions premium" },
@@ -54,7 +59,7 @@ export default function HomePage() {
             {/* Logo */}
             <div className="flex items-center gap-3">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo.png"
                 alt="Wood Project Logo"
                 width={40}
                 height={40}
@@ -123,11 +128,11 @@ export default function HomePage() {
               </div>
               <p className="mt-3 text-sm text-stone-600">Contact : <a className="underline" href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
             </div>
-            <div className="relative mt-8 w-full max-w-xl md:mt-0">
-              <div className="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl ring-1 ring-amber-900/10">
+            <div className="relative mt-8 w-full max-w-md md:mt-0">
+              <div className="aspect-[3/4] overflow-hidden rounded-3xl shadow-2xl ring-1 ring-amber-900/10">
                 <Image
-                  src="/images/interieur-van.png"
-                  alt="Aménagement intérieur van - Projet Bois 33"
+                  src="/images/cuisine-finis.png"
+                  alt="Cuisine sur mesure - Projet Bois 33"
                   fill
                   className="object-cover rounded-3xl"
                   priority
