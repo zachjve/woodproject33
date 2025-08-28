@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://woodproject33.example"),
   title: "Projet Bois 33 — Menuiserie & Design sur mesure",
   description:
     "Menuiserie artisanale en Gironde : dressings, cuisines, escaliers, terrasses, aménagements intérieurs & extérieurs. Devis précis + plan 3D.",

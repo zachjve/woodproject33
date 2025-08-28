@@ -295,7 +295,7 @@ export default function HomePage() {
       </section>
 
       {/* ——— CONTACT ——— */}
-      <section id="contact" className="bg-white py-16">
+      <section id="contact" className="bg-white py-16 px-6">
         <div className="mx-auto max-w-3xl rounded-3xl border border-stone-200 p-8 shadow-sm">
           <h2 className="text-3xl font-bold">Parlons de votre projet</h2>
           <p className="mt-2 text-stone-700">
