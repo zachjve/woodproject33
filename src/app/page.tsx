@@ -105,12 +105,12 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6 pt-32 pb-16 md:pt-36">
           <div className="flex flex-col items-start gap-8 md:flex-row md:items-center md:justify-between">
             <div className="max-w-2xl">
-              <span className="inline-block rounded-full bg-amber-200/70 px-3 py-1 text-xs font-medium text-stone-800">Menuiserie artisanale — 20+ ans d'expérience</span>
+              <span className="inline-block rounded-full bg-amber-200/70 px-3 py-1 text-xs font-medium text-stone-800">Menuiserie artisanale — 20+ ans d&apos;expérience</span>
               <h1 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
                 {COMPANY}
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-stone-700">
-                L'art du bois allié à l'élégance et au design : agencement intérieur, mobilier sur mesure, cuisines, escaliers, terrasses, et aménagements spéciaux.
+                L&apos;art du bois allié à l&apos;élégance et au design : agencement intérieur, mobilier sur mesure, cuisines, escaliers, terrasses, et aménagements spéciaux.
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <a
@@ -144,7 +144,7 @@ export default function HomePage() {
         <div className="flex items-end justify-between">
           <div>
             <h2 className="text-3xl font-bold">Réalisations</h2>
-            <p className="mt-2 max-w-2xl text-stone-700">Une sélection d'images issues de nos chantiers et réalisations terminées.</p>
+            <p className="mt-2 max-w-2xl text-stone-700">Une sélection d&apos;images issues de nos chantiers et réalisations terminées.</p>
           </div>
           <a href={`mailto:${EMAIL}`} className="hidden rounded-xl border border-stone-300 px-4 py-2 text-sm hover:bg-stone-100 md:inline-block">Nous contacter</a>
         </div>
@@ -234,7 +234,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-3xl font-bold">Notre savoir‑faire</h2>
             <p className="mt-2 max-w-3xl text-stone-700">
-              Forts de plus de vingt ans d'expérience, nous réalisons des projets variés et ambitieux, de l'agencement intérieur au mobilier sur mesure.
+              Forts de plus de vingt ans d&apos;expérience, nous réalisons des projets variés et ambitieux, de l&apos;agencement intérieur au mobilier sur mesure.
             </p>
           </div>
           <a
